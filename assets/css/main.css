@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -56,6 +57,10 @@ table {
   max-width: 1310px;
   height: 40px;
 }
+
+.header-news, .header-news .flex-row{
+  height: 100%;
+}
 .header-news a{
   color: #fff;
 }
@@ -67,11 +72,23 @@ table {
 
 .header-news [class*="col"]:last-child a{
   padding: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+  
 }
 .header-news .a-btn{
   background: #fff;
   color: #F72210;
 }
 
+@media only screen and (min-width: 992px){
+  .container{
+    height: 95px;
+  }
 
+  .header-news svg{
+    width: 396px;
+    height: 60px;
+  }
+}
 /*  */
