@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   font-family: 'Roboto Condensed', sans-serif;
+  background-color: #f4f5f6;
+  color: #333;
 }
 ol, ul {
 	list-style: none;
@@ -78,6 +80,39 @@ table {
 }
 .header-news .a-btn{
   background: #fff;
+  color: #F72210;
+}
+
+.header-news span{
+  color: #fff;
+}
+
+.header-news .col:last-child span{
+  padding: 4.5px 7.5px;
+}
+.header-news span i{
+  font-size: 18px;
+}
+
+.categories-ul{
+  font-size: 21px;
+}
+
+label[for="search"]{
+  background: url(../img/icon-search-glass.svg) center/contain no-repeat white;
+  height: 20px;
+  width: 20px;
+}
+
+input[name="search"]{
+  width: 60px;
+}
+.categories-ul li a{
+  color: #000;
+  font-weight: bold;
+}
+.categories-ul li a:hover{
+  text-decoration: none;
   color: #F72210;
 }
 
