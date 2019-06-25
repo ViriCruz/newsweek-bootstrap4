@@ -54,9 +54,12 @@ table {
 
 /* header */
 
+.container,
+.container-fluid{
+  max-width: 1310px;
+}
 .container{
   background: #F72210;
-  max-width: 1310px;
   height: 40px;
 }
 
@@ -116,9 +119,52 @@ input[name="search"]{
   color: #F72210;
 }
 
+.categories-ul li:first-child{
+  padding-left: 15px;
+}
+
+.text-content{
+  color: rgba(3,3,3,.4);
+}
+
+.link-text{
+  color: #000;
+  text-decoration: none;
+}
+
+.link-orange{
+  color: #F72210;
+}
+
+.category{
+  bottom: 0;
+  background-color: rgba(255,255,255,.9);
+}
+
+.category a{
+  text-decoration: none;
+  color: #F72210;
+}
+
+.h3{
+  font-size: 22px;
+  line-height: 24px;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+  text-decoration: underline #f72210;
+  color: #000;
+}
+
+article p{
+  font-size: 13px;
+  line-height: 1.5;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
 @media only screen and (min-width: 992px){
   .container{
-    height: 95px;
+    height: auto;
   }
 
   .header-news svg{
