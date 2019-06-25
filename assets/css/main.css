@@ -155,11 +155,18 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   text-decoration: underline #f72210;
   color: #000;
 }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+  color: #000;
+} 
 
 article p{
   font-size: 13px;
   line-height: 1.5;
   font-family: Arial,Helvetica,sans-serif;
+}
+
+.size-img{
+  width: 258px;
 }
 
 @media only screen and (min-width: 992px){
