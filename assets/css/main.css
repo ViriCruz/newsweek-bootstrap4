@@ -146,9 +146,18 @@ input[name="search"]{
   color: #F72210;
 }
 
-.h3{
+.h1{
   font-size: 22px;
   line-height: 24px;
+}
+
+.h3{
+  font-size: 20px;
+  line-height: 20px;
+}
+.h4{
+  font-size: 17px;
+  line-height: 20px;
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
