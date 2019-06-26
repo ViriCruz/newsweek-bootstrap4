@@ -192,8 +192,33 @@ article p{
   font-family: Arial,Helvetica,sans-serif;
 }
 
+.arrow-icon{
+  width: 8px;
+  height: 14px;
+  
+  background: url(../img/icon-arrow-right.svg) center/contain no-repeat;
+}
+
 .size-img{
   width: 258px;
+}
+
+.sign-up{
+  max-width: 300px;
+}
+.sign-up .title{
+  font-size: 19px;
+  line-height: 19px;
+}
+
+.icon-n{
+  width: 29px;
+  height: 28px;
+  background: url(../img/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.no-hover:hover{
+  color: #000;
 }
 
 @media only screen and (min-width: 768px){
