@@ -132,12 +132,17 @@ input[name="search"]{
 }
 
 .link-text{
-  color: #000;
+  color: #000!important;
   text-decoration: none;
 }
 
-.link-orange{
+.link-orange, 
+.link-orange:hover{
   color: #F72210;
+}
+
+.bg-orange{
+  background: #f72210;
 }
 
 .category{
@@ -195,8 +200,13 @@ article p{
 .arrow-icon{
   width: 8px;
   height: 14px;
-  
   background: url(../img/icon-arrow-right.svg) center/contain no-repeat;
+}
+
+.black-arrow-icon{
+  width: 8px;
+  height: 14px;
+  background: url(../img/icon-arrow-right-black.svg) center/contain no-repeat;
 }
 
 .size-img{
@@ -224,6 +234,10 @@ article p{
 @media only screen and (min-width: 768px){
   .size-img{
     width: 135px;
+  }
+
+  .border-md-bottom{
+    border-bottom: 1px solid #dee2e6;
   }
 }
 
