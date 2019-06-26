@@ -132,7 +132,7 @@ input[name="search"]{
 }
 
 .link-text{
-  color: #000!important;
+  color: #000;
   text-decoration: none;
 }
 
@@ -253,6 +253,11 @@ article p{
 }
 .no-hover:hover{
   color: #000;
+}
+
+.block-title{
+  font-size: 22px;
+  line-height: 22px;
 }
 
 @media only screen and (min-width: 768px){
