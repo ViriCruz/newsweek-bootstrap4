@@ -140,6 +140,19 @@ input[name="search"]{
 .link-orange:hover{
   color: #F72210;
 }
+.count{
+  bottom: 0;
+}
+.counter{
+  width: 70px;
+  height: 52px;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  background: url(../img/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+  
+}
 
 .bg-orange{
   background: #f72210;
@@ -227,6 +240,17 @@ article p{
   background: url(../img/logo-n1.svg) center/contain no-repeat #f72210;
 }
 
+.featured-slideshows .icon-n::after{
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
 .no-hover:hover{
   color: #000;
 }
