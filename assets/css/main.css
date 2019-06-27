@@ -165,9 +165,9 @@ input[name="search"]{
 }
 
 .category{
-  bottom: 0;
   background-color: #fff;
   background-color: rgba(255,255,255,.9);
+  bottom: 0;
 }
 
 .category a{
@@ -195,8 +195,8 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 }
 
 .list-a{
-  line-height: 1.2;
   font-size: 17px;
+  line-height: 1.2;
 }
 
 .byline{
