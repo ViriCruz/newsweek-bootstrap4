@@ -100,7 +100,9 @@ footer, header, hgroup, menu, nav, section {
 .header-news span i{
   font-size: 18px;
 }
+/* end of header */
 
+/* categories */
 .categories-ul{
   font-size: 21px;
 }
@@ -126,6 +128,8 @@ input[name="search"]{
 .categories-ul li:first-child{
   padding-left: 15px;
 }
+
+/* end of categories */
 
 .text-content{
   color: rgba(3,3,3,.4);
@@ -256,9 +260,10 @@ article p{
   color: #000;
 }
 
+/* aside */
 .upfront-img{
   top: 13px;
-  left: 80px;
+  left: 154px;
 }
 
 .subscribe h3{
@@ -266,13 +271,19 @@ article p{
   color: #000;
 }
 
-.subscribe p{
 
+
+.subscribe p{
   font-size: 15px;
   line-height: 21px;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.newsletter-img{
+  background: url(../img/subscribe-img2.gif) center center / cover no-repeat;
+  height: 160px;
+  
+}
 .img-container{
   padding-right: 90px;
   padding-bottom: 20px;
@@ -283,6 +294,66 @@ article p{
   line-height: 22px;
 }
 
+aside{
+  padding-bottom: 160px;
+}
+
+/* end of aside */
+
+/* footer */
+footer svg{
+  fill: #F72210;
+  width: 236px;
+  height: 36px;
+}
+
+footer ul a{
+  color: rgb(102, 102, 102);
+  font-size: 26px;
+}
+
+footer p{
+  font-size: 12px;
+  line-height: 12px;
+  font-family: Arial,Helvetica,sans-serif;
+  color: #666;
+}
+
+.facebook:hover{
+  color: #3b5998;
+}
+
+.twitter{
+  font-size: 23px;
+}
+
+.twitter:hover{
+  color: #1da1f2;
+}
+
+.insta{
+  font-size: 23px;
+}
+
+.insta:hover{
+  color: #405de6;
+}
+
+.tumblr{
+  font-size: 18px;
+}
+
+.tumblr:hover{
+  color: #35465c;
+}
+
+.linked-in{
+  font-size: 21px;
+}
+.linked-in:hover{
+  color: #0077b5;
+}
+
 
 @media only screen and (min-width: 768px){
   .size-img{
@@ -291,6 +362,28 @@ article p{
 
   .border-md-bottom{
     border-bottom: 1px solid #dee2e6;
+  }
+
+  .newsletter-img{
+    max-width: 191px;
+  }
+
+  .subscribe .info{
+    padding-left: 276px;
+    padding-top: 20px;
+  }
+  .upfront-img{
+    
+    left: 76px;
+  }
+
+  .info-newsletter{
+    padding-left: 211px;
+    padding-top: 45px;
+  }
+
+  aside{
+    padding-bottom: 45px;
   }
 }
 
