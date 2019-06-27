@@ -137,7 +137,8 @@ input[name="search"]{
 }
 
 .link-orange, 
-.link-orange:hover{
+.link-orange:hover,
+.title-red{
   color: #F72210;
 }
 .count{
@@ -255,10 +256,33 @@ article p{
   color: #000;
 }
 
+.upfront-img{
+  top: 13px;
+  left: 80px;
+}
+
+.subscribe h3{
+  line-height: 28px;
+  color: #000;
+}
+
+.subscribe p{
+
+  font-size: 15px;
+  line-height: 21px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.img-container{
+  padding-right: 90px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
 .block-title{
   font-size: 22px;
   line-height: 22px;
 }
+
 
 @media only screen and (min-width: 768px){
   .size-img{
