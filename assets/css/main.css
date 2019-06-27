@@ -1,0 +1,430 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+   Reset
+*/
+
+a, abbr, acronym, address, big, cite, code,
+article, aside, canvas, details, embed, 
+b, u, i, center,
+del, dfn, em, img, ins, kbd, q, s, samp,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+figure, figcaption, footer, header, hgroup, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+html, body, div, span, applet, object, iframe,
+menu, nav, output, ruby, section, summary,
+small, strike, strong, sub, sup, tt, var,
+table, caption, tbody, tfoot, thead, tr, th, td,
+time, mark, audio, video {
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body {
+  background-color: #f4f5f6;
+  color: #333;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* Reset */
+
+/* header */
+
+.container,
+.container-fluid{
+  max-width: 1310px;
+}
+.container{
+  background: #F72210;
+  height: 40px;
+}
+
+.header-news, .header-news .flex-row{
+  height: 100%;
+}
+.header-news a{
+  color: #fff;
+}
+.header-news svg{
+  fill: #fff;
+  height: 20px;
+  width: 132px;
+}
+
+.header-news [class*="col"]:last-child a{
+  font-weight: bold;
+  padding: 6px;
+  text-transform: uppercase;
+  
+}
+.header-news .a-btn{
+  background: #fff;
+  color: #F72210;
+}
+
+.header-news span{
+  color: #fff;
+}
+
+.header-news .col:last-child span{
+  padding: 4.5px 7.5px;
+}
+.header-news span i{
+  font-size: 18px;
+}
+/* end of header */
+
+/* categories */
+.categories-ul{
+  font-size: 21px;
+}
+
+label[for="search"]{
+  background: url(../img/icon-search-glass.svg) center/contain no-repeat white;
+  height: 20px;
+  width: 20px;
+}
+
+input[name="search"]{
+  width: 60px;
+}
+.categories-ul li a{
+  color: #000;
+  font-weight: bold;
+}
+.categories-ul li a:hover{
+  color: #F72210;
+  text-decoration: none;
+}
+
+.categories-ul li:first-child{
+  padding-left: 15px;
+}
+
+/* end of categories */
+
+.text-content{
+  color: #030303;
+  color: rgba(3,3,3,.4);
+}
+
+.link-text{
+  color: #000;
+  text-decoration: none;
+}
+
+.link-orange, 
+.link-orange:hover,
+.title-red{
+  color: #F72210;
+}
+.count{
+  bottom: 0;
+}
+.counter{
+  background: url(../img/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+  font-size: 20px;
+  height: 52px;
+  line-height: 58px;
+  text-indent: 5px;
+  width: 70px;
+  
+}
+
+.bg-orange{
+  background: #f72210;
+}
+
+.category{
+  background-color: #fff;
+  background-color: rgba(255,255,255,.9);
+  bottom: 0;
+}
+
+.category a{
+  color: #F72210;
+  text-decoration: none;
+}
+
+.h1{
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.h3{
+  font-size: 20px;
+  line-height: 20px;
+}
+.h4{
+  font-size: 17px;
+  line-height: 20px;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+  color: #000;
+  text-decoration: underline #f72210;
+}
+
+.list-a{
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+.byline{
+  font-size: 14px;
+  line-height: 21px;
+}
+.list-a:hover{
+  color: #f72210;
+  text-decoration: none;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+  color: #000;
+} 
+
+article p{
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.arrow-icon{
+  background: url(../img/icon-arrow-right.svg) center/contain no-repeat;
+  height: 14px;
+  width: 8px;
+}
+
+.black-arrow-icon{
+  background: url(../img/icon-arrow-right-black.svg) center/contain no-repeat;
+  height: 14px;
+  width: 8px;
+}
+
+.size-img{
+  width: 258px;
+}
+
+.sign-up{
+  max-width: 300px;
+}
+.sign-up .title{
+  font-size: 19px;
+  line-height: 19px;
+}
+
+.icon-n{
+  background: url(../img/logo-n1.svg) center/contain no-repeat #f72210;
+  height: 28px;
+  width: 29px;
+}
+
+.featured-slideshows .icon-n::after{
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  bottom: -4px;
+  content: "";
+  display: block;
+  height: 25px;
+  position: absolute;
+  right: -4px;
+  width: 26px;
+}
+.no-hover:hover{
+  color: #000;
+}
+
+/* aside */
+.upfront-img{
+  left: 154px;
+  top: 13px;
+}
+
+.subscribe h3{
+  color: #000;
+  line-height: 28px;
+}
+
+
+
+.subscribe p{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.newsletter-img{
+  background: url(../img/subscribe-img2.gif) center center / cover no-repeat;
+  height: 160px;
+  
+}
+.img-container{
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  padding-right: 90px;
+}
+.block-title{
+  font-size: 22px;
+  line-height: 22px;
+}
+
+aside{
+  padding-bottom: 160px;
+}
+
+/* end of aside */
+
+/* footer */
+footer svg{
+  fill: #F72210;
+  height: 36px;
+  width: 236px;
+}
+
+footer ul a{
+  color: rgb(102, 102, 102);
+  font-size: 26px;
+}
+
+footer p{
+  color: #666;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.facebook:hover{
+  color: #3b5998;
+}
+
+.twitter{
+  font-size: 23px;
+}
+
+.twitter:hover{
+  color: #1da1f2;
+}
+
+.insta{
+  font-size: 23px;
+}
+
+.insta:hover{
+  color: #405de6;
+}
+
+.tumblr{
+  font-size: 18px;
+}
+
+.tumblr:hover{
+  color: #35465c;
+}
+
+.linked-in{
+  font-size: 21px;
+}
+.linked-in:hover{
+  color: #0077b5;
+}
+
+.menu li{
+  margin: 6px 0;
+  padding-right: 10px;
+}
+
+
+.menu a, .links-right span{
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.links-right ul{
+  width: 60%;
+}
+
+@media only screen and (min-width: 768px){
+  .size-img{
+    width: 135px;
+  }
+
+  .border-md-bottom{
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .newsletter-img{
+    max-width: 191px;
+  }
+
+  .subscribe .info{
+    padding-left: 276px;
+    padding-top: 20px;
+  }
+  .upfront-img{
+    
+    left: 76px;
+  }
+
+  .info-newsletter{
+    padding-left: 211px;
+    padding-top: 45px;
+  }
+
+  aside{
+    padding-bottom: 45px;
+  }
+
+  .menu li{
+    border-right: 1px solid #d9d9d9;
+    margin-right: 10px;
+  }
+
+  .links-right{
+    padding-left: 80px;
+  }
+
+  .links-left{
+    padding-right: 65px;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .container{
+    height: auto;
+  }
+
+  .header-news svg{
+    height: 60px;
+    width: 396px;
+  }
+}
+/*  */
