@@ -18,18 +18,18 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	margin: 0;
+	padding: 0;
 	vertical-align: baseline;
 }
 body {
-  line-height: 1;
-  font-family: 'Roboto Condensed', sans-serif;
   background-color: #f4f5f6;
   color: #333;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -74,15 +74,15 @@ footer, header, hgroup, menu, nav, section {
   color: #fff;
 }
 .header-news svg{
-  width: 132px;
-  height: 20px;
   fill: #fff;
+  height: 20px;
+  width: 132px;
 }
 
 .header-news [class*="col"]:last-child a{
+  font-weight: bold;
   padding: 6px;
   text-transform: uppercase;
-  font-weight: bold;
   
 }
 .header-news .a-btn{
@@ -121,8 +121,8 @@ input[name="search"]{
   font-weight: bold;
 }
 .categories-ul li a:hover{
-  text-decoration: none;
   color: #F72210;
+  text-decoration: none;
 }
 
 .categories-ul li:first-child{
@@ -132,6 +132,7 @@ input[name="search"]{
 /* end of categories */
 
 .text-content{
+  color: #030303;
   color: rgba(3,3,3,.4);
 }
 
@@ -149,13 +150,13 @@ input[name="search"]{
   bottom: 0;
 }
 .counter{
-  width: 70px;
-  height: 52px;
-  font-size: 20px;
-  line-height: 58px;
-  text-indent: 5px;
   background: url(../img/icon-slideshows-nw.png) 0 0/contain no-repeat;
   color: #e9212e;
+  font-size: 20px;
+  height: 52px;
+  line-height: 58px;
+  text-indent: 5px;
+  width: 70px;
   
 }
 
@@ -165,12 +166,13 @@ input[name="search"]{
 
 .category{
   bottom: 0;
+  background-color: #fff;
   background-color: rgba(255,255,255,.9);
 }
 
 .category a{
-  text-decoration: none;
   color: #F72210;
+  text-decoration: none;
 }
 
 .h1{
@@ -188,8 +190,8 @@ input[name="search"]{
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-  text-decoration: underline #f72210;
   color: #000;
+  text-decoration: underline #f72210;
 }
 
 .list-a{
@@ -210,21 +212,21 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
 } 
 
 article p{
+  font-family: Arial,Helvetica,sans-serif;
   font-size: 13px;
   line-height: 1.5;
-  font-family: Arial,Helvetica,sans-serif;
 }
 
 .arrow-icon{
-  width: 8px;
-  height: 14px;
   background: url(../img/icon-arrow-right.svg) center/contain no-repeat;
+  height: 14px;
+  width: 8px;
 }
 
 .black-arrow-icon{
-  width: 8px;
-  height: 14px;
   background: url(../img/icon-arrow-right-black.svg) center/contain no-repeat;
+  height: 14px;
+  width: 8px;
 }
 
 .size-img{
@@ -240,21 +242,21 @@ article p{
 }
 
 .icon-n{
-  width: 29px;
-  height: 28px;
   background: url(../img/logo-n1.svg) center/contain no-repeat #f72210;
+  height: 28px;
+  width: 29px;
 }
 
 .featured-slideshows .icon-n::after{
   border-bottom: 3px solid red;
   border-right: 3px solid red;
-  display: block;
+  bottom: -4px;
   content: "";
-  width: 26px;
+  display: block;
   height: 25px;
   position: absolute;
-  bottom: -4px;
   right: -4px;
+  width: 26px;
 }
 .no-hover:hover{
   color: #000;
@@ -262,21 +264,21 @@ article p{
 
 /* aside */
 .upfront-img{
-  top: 13px;
   left: 154px;
+  top: 13px;
 }
 
 .subscribe h3{
-  line-height: 28px;
   color: #000;
+  line-height: 28px;
 }
 
 
 
 .subscribe p{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 15px;
   line-height: 21px;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .newsletter-img{
@@ -285,9 +287,9 @@ article p{
   
 }
 .img-container{
-  padding-right: 90px;
-  padding-bottom: 20px;
   margin-bottom: 10px;
+  padding-bottom: 20px;
+  padding-right: 90px;
 }
 .block-title{
   font-size: 22px;
@@ -303,8 +305,8 @@ aside{
 /* footer */
 footer svg{
   fill: #F72210;
-  width: 236px;
   height: 36px;
+  width: 236px;
 }
 
 footer ul a{
@@ -313,10 +315,10 @@ footer ul a{
 }
 
 footer p{
+  color: #666;
+  font-family: Arial,Helvetica,sans-serif;
   font-size: 12px;
   line-height: 12px;
-  font-family: Arial,Helvetica,sans-serif;
-  color: #666;
 }
 
 .facebook:hover{
@@ -355,15 +357,15 @@ footer p{
 }
 
 .menu li{
-  padding-right: 10px;
   margin: 6px 0;
+  padding-right: 10px;
 }
 
 
 .menu a, .links-right span{
+  font-family: Arial,Helvetica,sans-serif;
   font-size: 14px;
   line-height: 15px;
-  font-family: Arial,Helvetica,sans-serif;
 }
 
 .links-right ul{
@@ -421,8 +423,8 @@ footer p{
   }
 
   .header-news svg{
-    width: 396px;
     height: 60px;
+    width: 396px;
   }
 }
 /*  */
